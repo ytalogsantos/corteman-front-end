@@ -1,14 +1,15 @@
-import { ServicoForm } from "./servico-form";
+import "./styles/theme.css";
+import "./styles/global.css";
+import { ServicoCreationForm } from "./components/create-servico-page/servico-creation-form";
+// import { ServicoList } from "./components/servico-list";
+import { HomeMenu } from "./components/home/home-menu";
+
+
 export function App() {
     return (
-        <div>
-            <h1>Hellow world@!`~</h1>
-            <ServicoForm />
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Doloribus ea repellendus quas minima ut, deserunt consequuntur ipsa possimus fugit,
-            dolores laboriosam molestias molestiae repellat. 
-            Ea ipsam earum necessitatibus ducimus tempora.</p>
-        </div>
+        <>
+            <HomeMenu />
+            <ServicoCreationForm />
+        </>
     );
 }
