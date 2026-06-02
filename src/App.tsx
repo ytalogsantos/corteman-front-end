@@ -1,15 +1,19 @@
+import { Heading } from "./components/Heading";
+import { Container } from "./components/Container";
+import { Logo } from "./components/Logo";
+
 import "./styles/theme.css";
 import "./styles/global.css";
-import { ServicoCreationForm } from "./components/create-servico-page/servico-creation-form";
-// import { ServicoList } from "./components/servico-list";
-import { HomeMenu } from "./components/home/home-menu";
-
 
 export function App() {
     return (
         <>
-            <HomeMenu />
-            <ServicoCreationForm />
+            <Container>
+                <Heading>BEM VINDO (A) AO CORTEMAN!</Heading>
+                <Logo />
+            </Container>
+            <Container>MENU</Container>
+            <Container>FOOT</Container>
         </>
     );
 }
