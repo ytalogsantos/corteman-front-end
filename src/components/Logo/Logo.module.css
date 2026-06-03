@@ -32,4 +32,5 @@
 
 .logoImage:hover {
     background-color: var(--primary-red);
+    filter: brightness(80%);
 }

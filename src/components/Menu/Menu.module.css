@@ -1,0 +1,23 @@
+.menuNav {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.menuOptionLink {
+    display: inline-flex;
+    background-color: var(--primary-cyan);
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.menuOptionLink:hover {
+    filter: brightness(80%);
+    background-color: var(--primary-red);
+}
+
+.menuOptionIcon {
+    width: 2.4rem;
+    height: 2.4rem;
+}
