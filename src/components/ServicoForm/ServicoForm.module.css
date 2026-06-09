@@ -1,14 +1,15 @@
-.servicoForm {
+.servicoFormContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2.4rem;
 }
 
-.servicoFormRow {
+.servicoFormInput {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+
+.servicoFormButtom {
+    display: flex;
+    gap: 1.2rem;
+    margin-left: 9.8rem;
 }

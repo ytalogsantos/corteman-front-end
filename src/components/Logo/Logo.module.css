@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: var(--primary-cyan); */
     /* padding: 3.2rem; */
 }
 
@@ -14,23 +13,23 @@
     font-size: 4.2rem;
     font-weight: bold;
     text-decoration: none;
-    color: var(--primary-gray);
+    color: var(--gray-500);
     transition: all 0.2s ease-in-out;
 
 }
 
 .logoImage {
-    background-color: var(--primary-gray);
+    background-color: var(--gray-500);
     width: 6.4rem;
     height: 6.4rem;
     transition: all 0.2s ease-in-out;
 }
 
 .logoLink:hover {
-    color: var(--primary-red);
+    color: var(--red-500);
 }
 
 .logoImage:hover {
-    background-color: var(--primary-red);
+    background-color: var(--red-500);
     filter: brightness(80%);
 }

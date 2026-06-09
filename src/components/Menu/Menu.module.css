@@ -6,7 +6,7 @@
 
 .menuOptionLink {
     display: inline-flex;
-    background-color: var(--primary-cyan);
+    background-color: var(--cyan-900);
     padding: 1.2rem;
     border-radius: 0.8rem;
     transition: all 0.2s ease-in-out;
@@ -14,7 +14,7 @@
 
 .menuOptionLink:hover {
     filter: brightness(80%);
-    background-color: var(--primary-red);
+    background-color: var(--red-500);
 }
 
 .menuOptionIcon {

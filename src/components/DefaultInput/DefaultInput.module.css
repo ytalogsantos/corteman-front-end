@@ -1,0 +1,36 @@
+.defaultInputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+.defaultInput {
+    background-color: transparent;
+    border: 0.2rem solid transparent;
+    border-bottom: 0.2rem solid var(--cyan-900);
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--white-500);
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.defaultInput::placeholder {
+    color: var(--gray-500);
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.defaultInput:focus {
+    border: 0.2rem solid var(--cyan-900);
+    border-radius: 0.8rem;
+}
+
+.defaultInput:disabled {
+    color: var(--disabled-white);
+    border-bottom: 0.2rem solid var(--gray-500);
+}
+
+.defaultInputLabel {
+    text-align: center;
+}
