@@ -1,3 +1,11 @@
 .heading {
-    color: var(--red-500);
+    
+}
+
+.blue {
+    color: var(--blue-900);
+}
+
+.cyan {
+    color: var(--cyan-900);
 }
